@@ -2,6 +2,9 @@
   "name": "soundscape-website",
   "private": true,
   "version": "0.0.0",
+
+"homepage": "https://<你的帳號>.github.io/s-demo",
+  
   "type": "module",
   "scripts": {
     "dev": "vite",
