@@ -1,7 +1,10 @@
 {
-  "name": "soundscape-website",
+  "name": "s-demo",
   "private": true,
   "version": "0.0.0",
+
+"homepage": "https://joeysungtw.github.io/s-demo"
+  
   "type": "module",
   "scripts": {
     "dev": "vite",
