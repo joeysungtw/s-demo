@@ -1,9 +1,9 @@
 {
-  "name": "soundscape-website",
+  "name": "s-demo",
   "private": true,
   "version": "0.0.0",
 
-"homepage": "https://<你的帳號>.github.io/s-demo",
+"homepage": "https://joeysungtw.github.io/s-demo",
   
   "type": "module",
   "scripts": {
