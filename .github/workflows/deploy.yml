@@ -1,0 +1,37 @@
+name: Build & Deploy Vite
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # 安裝依賴
+      - run: npm ci        # ← 若用 pnpm，改成 pnpm install --frozen-lockfile
+
+      # 建置 Vite（輸出 dist/）
+      - run: npm run build # ← pnpm build
+
+      # 上傳靜態產物供部署
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@v4
