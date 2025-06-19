@@ -19,11 +19,15 @@ jobs:
         with:
           node-version: 20
 
-      # 安裝依賴
-      - run: npm ci        # ← 若用 pnpm，改成 pnpm install --frozen-lockfile
+# 安裝 pnpm 並安裝依賴
+      - name: Enable pnpm & install
+        run: |
+          corepack enable            # 讓 runner 內建的 pnpm 可用
+          pnpm install --frozen-lockfile
 
-      # 建置 Vite（輸出 dist/）
-      - run: npm run build # ← pnpm build
+      # 建置專案（Vite）
+      - name: Build
+        run: pnpm build
 
       # 上傳靜態產物供部署
       - uses: actions/upload-pages-artifact@v3
