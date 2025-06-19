@@ -21,7 +21,7 @@ function App() {
 
   const faqData = [
     {
-      category: "Soundscape 簡介與入門",
+      category: "S. 簡介與入門",
       questions: [
         {
           question: "什麼是 S.？",
