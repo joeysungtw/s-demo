@@ -348,7 +348,7 @@ function App() {
           >
             {[
               {
-                title: "新進創作者",
+                title: "新進型創作者",
                 subtitle: "音樂旅程啟動者",
                 description: "首次發行、個人製作、對數位發行流程不熟悉",
                 features: ["零門檻註冊", "AI 智慧檢測", "清晰收益說明", "基礎行銷工具"],
