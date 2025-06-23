@@ -149,6 +149,7 @@ function App() {
             <div className="hidden md:flex items-center space-x-8">
               <a href="#features" className="text-slate-600 hover:text-primary transition-colors">功能特色</a>
               <a href="#pricing" className="text-slate-600 hover:text-primary transition-colors">方案價格</a>
+               <a href="#collaborations" className="text-slate-600 hover:text-primary transition-colors">客戶案例</a>
               <a href="#community" className="text-slate-600 hover:text-primary transition-colors">社群活動</a>
               <a href="#faq" className="text-slate-600 hover:text-primary transition-colors">常見問題</a>
               <Button variant="outline" className="mr-2">登入</Button>
