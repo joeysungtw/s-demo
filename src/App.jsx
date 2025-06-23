@@ -398,23 +398,7 @@ function App() {
         </div>
       </section>
 
-      {/* creator-list Section */}
-      <section id="creator-list" className="py-20 bg-gradient-to-br from-blue-50 to-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div 
-            className="text-center mb-16"
-            initial="initial"
-            whileInView="animate"
-            viewport={{ once: true }}
-            variants={fadeInUp}
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              S. 上多采多姿的創作者
-            </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              眾多創作者他們各自獨立綻放，但又透過 S. 彼此連結一齊成長茁壯
-            </p>
-      
+          
       {/* FAQ Section */}
       <section id="faq" className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
