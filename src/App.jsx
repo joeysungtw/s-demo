@@ -147,11 +147,12 @@ function App() {
               <img src={soundscapeLogo} alt="S." className="h-10 w-auto" />
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#features" className="text-slate-600 hover:text-primary transition-colors">功能特色</a>
-              <a href="#pricing" className="text-slate-600 hover:text-primary transition-colors">方案價格</a>
-               <a href="#collaborations" className="text-slate-600 hover:text-primary transition-colors">客戶案例</a>
-              <a href="#community" className="text-slate-600 hover:text-primary transition-colors">社群活動</a>
-              <a href="#faq" className="text-slate-600 hover:text-primary transition-colors">常見問題</a>
+              <a href="#features" className="text-slate-600 hover:text-primary transition-colors">功能完整介紹</a>
+              <a href="#zero-start" className="text-slate-600 hover:text-primary transition-colors">0元啟動計畫</a>
+              <a href="#creator-list" className="text-slate-600 hover:text-primary transition-colors">精選創作者名錄</a>
+               <a href="#case-studies" className="text-slate-600 hover:text-primary transition-colors">合作成功故事</a>
+              <a href="#community" className="text-slate-600 hover:text-primary transition-colors">最新社群活動</a>
+              <a href="#faq" className="text-slate-600 hover:text-primary transition-colors">解答常見問題</a>
               <Button variant="outline" className="mr-2">登入</Button>
               <Button>立即開始</Button>
             </div>
